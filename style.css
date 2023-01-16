@@ -1,0 +1,193 @@
+body {
+box-sizing: border-box;  
+margin: auto;
+font-family: calibri;
+}
+
+ul {
+width: 100%;
+list-style: none;
+margin: 0 auto;
+padding: 0;
+overflow: hidden;
+background-color: black;
+position: sticky;
+}
+
+.soon{
+float: left;
+}
+
+li {
+float: right;
+padding: 5px;
+margin-left: 5px;
+font-family: arial rounded;
+}
+
+li a {
+display: inline-block;
+color: white;
+text-align: center;
+padding: 12px 14px;
+text-decoration: none;
+}
+
+li a:hover{
+background-color: #111;
+}
+
+.section_one {
+display: relative;
+text-align: center;
+margin: auto;
+}
+
+.package_one {
+bottom: 0px;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%)
+position: absolute;
+z-index: -8;
+}
+
+.package_two{
+top: 300px;
+left: 50px;
+height: 100px;
+width: 100px;
+position: absolute;
+z-index: -8;
+}
+
+.package_three{
+top: 100px;
+right: 100px;
+height: 100px;
+width: 100px;
+position: absolute;
+z-index: -8;
+}
+
+.section_two {
+max-width: 700px;
+margin: 0 auto;
+padding: 20px; 
+}
+
+.profile_container {
+text-align: center;
+}
+
+.profile_img {
+width: 200px;
+height: 200px;
+border-radius: 50%;
+}
+
+h1 {
+font-family: brush flair;
+font-weight: bold; 
+font-size: 40px;
+margin-top: 200px;
+}
+
+span {
+font-family: comic sans ms;
+font-size: 25px;
+font-weight: bold;
+text-decoration: underline;
+}
+
+h3 {
+font-family: emblem;
+font-weight: bold;
+font-size: 25px;
+color: red;
+text-align: center;
+}
+
+h5 {
+font-family: expo;
+font-size: 18px;
+color: cadetblue;
+}
+
+p {
+font-size: 17px;
+line-height: 1.5em;
+}
+
+.trick {
+height: 150px;
+width: 150px;
+float: left;
+padding: 10px;
+}
+
+.trick1 {
+height: 150px;
+width: 150px;
+float: right;
+padding: 10px;
+}
+
+.trick2 {
+height: 150px;
+width: 150px;
+float: left;
+padding: 10px;
+}
+
+hr {
+width: 50px;
+border: 2px dotted cadetblue;
+border-top: none;
+border-width: thick;
+margin-top: 50px;
+margin-bottom: 50px;
+justify-content: center;
+}
+
+.skill_one, skill_two, skill_three {
+display: inline-block;
+}
+
+#contact {
+text-align: center;
+}
+
+button {
+width: 150px;
+height: 40px;
+background-color: black;
+border-radius: 10px;
+border: none;
+font-size: 16px;
+}
+
+button a:link, a:visited {
+text-decoration: none;
+text-align: center;
+color: white;
+}
+
+footer {
+background-color: black; 
+color: white; 
+font-size: 20px;
+margin: auto;
+padding: 50px;
+text-align: center;
+margin-top: 30px;
+background-color: 
+}
+
+.links a:link, a:visited {
+text-decoration: none;
+color: papayawhip;
+font-size: 16px;
+margin-left: 40px;
+margin-left: 30px;
+}
